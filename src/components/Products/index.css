@@ -1,0 +1,137 @@
+.projects {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'sans-serif';
+}
+.p-heading {
+  text-align: center;
+}
+
+hr {
+  border-color: yellow;
+  width: 10%;
+}
+
+.card-image {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+  display: flex;
+  height: 320px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 100%;
+  }
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: white; /* Button background color */
+  color: gray; /* Button text color */
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 30px;
+}
+
+.button-link:hover {
+  background-color: olive;
+  color: black;
+}
+
+.side-image {
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .side-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.data {
+  width: 500px;
+  height: 300px;
+  border: 1px solid gray;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 40%;
+  padding-left: 30px;
+  padding-right: 150px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+  .data {
+    width: 100%;
+    height: 100%;
+  }
+}
+.projectName {
+  min-width: 200px;
+  max-width: 250px;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .projectName {
+    min-width: 100px;
+    max-width: 150px;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    font-size: 14px;
+  }
+}
+.descriptionn {
+  /* max-width: 300px; */
+  min-width: 200px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .descriptionn {
+    /* max-width: 300px; */
+    min-width: 100px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.last {
+  width: 100vw;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

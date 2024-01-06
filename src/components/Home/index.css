@@ -1,0 +1,252 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1110px;
+}
+.home {
+  background-color: whitesmoke;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    align-items: flex-start;
+  }
+}
+
+.home-mobile-img {
+  width: 206px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+
+.home-desktop-img {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 46px;
+    text-align: left;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 18px;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.shop-now-button {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: olive;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+}
+.add-button {
+  width: 40%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: olive;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  margin-left: auto;
+}
+
+.linked-button {
+  width: 150px;
+  height: 40px;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: white;
+  margin-top: 30px;
+  border: 1px solid gray;
+  border-radius: 16px;
+}
+.d-flex {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shop-now-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid gray; */
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid gray; */
+  margin-left: 100px;
+  margin-right: 100px;
+  /* margin-bottom: 100px; */
+  background-color: white;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: white;
+}
+textarea {
+  width: 250px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: white;
+}
+.project-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.developer {
+  color: olive;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+.background-image {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.overlay-image {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  /* Adjust the positioning as needed */
+}
+@media screen and (max-width: 768px) {
+  .image-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .overlay-image {
+    width: 50%;
+    top: 60%;
+    left: 50%;
+  }
+}
+.file-control {
+  border: none;
+}
